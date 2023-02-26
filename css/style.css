@@ -174,3 +174,14 @@ body {
 .card-item--blue::before {
   background-color: #549ef2;
 }
+
+/* For screen readers */
+.sr-only {
+  position: absolute;
+  top: auto;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
