@@ -3,7 +3,7 @@
 
 @media (min-width: 700px) {
   main {
-    transform: translateY(-6px);
+    transform: translateY(-5.5px);
   }
 
   .section-four-card {
