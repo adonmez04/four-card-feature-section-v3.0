@@ -1,4 +1,4 @@
-# Frontend Mentor - The Project Name
+# Frontend Mentor - four-card-feature-section-v3.0
 
 **Table of Contents**
 
@@ -6,15 +6,15 @@
 
 Welcome to my solution page. I hope you'll find some good implemantions for this project here.
 
-![The Project Name](./The-Preview-Image-in-your-design-directory.jpg)
+![four-card-feature-section-v3.0](./design/desktop-preview.jpg)
 
 ## Links
 
-- [My Live Site](My-live-site-in-github.io)
+- [My Live Site](https://adonmez04.github.io/four-card-feature-section-v3.0/)
 
-- [My Solution Page](My-Project-Page-in-frontendmentor.io)
+- [My Solution Page](https://www.frontendmentor.io/solutions/fourcardfeaturesectionv30-FMDt0U9WQs)
 
-- [The Challenge Page](Add-the-link-from-then-https://www.frontendmentor.io/challenges)
+- [The Challenge Page](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
 
 <!-- ## Overview -->
 
