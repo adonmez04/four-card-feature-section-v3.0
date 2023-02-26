@@ -2,6 +2,10 @@
 /* Above the 700px */
 
 @media (min-width: 700px) {
+  main {
+    transform: translateY(-5px);
+  }
+
   .section-four-card {
     max-width: 1440px;
     padding: 80px 165px;
