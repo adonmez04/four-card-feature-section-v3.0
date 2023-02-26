@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Poppins", sans-serif;
 
   /* To center the content */
@@ -33,60 +33,59 @@ body {
 /*************************/
 
 .section-four-card {
-  max-width: 375px;
-  padding: 85px 32px 78px;
+  max-width: 23.4375rem;
+  padding: 5.3125rem 2rem 4.875rem;
   background: #fafafa;
-  /* background-color: red; */
 
   /* The Flexbox */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 76px;
+  gap: 4.75rem;
 }
 
 /* The Content Area */
 .section-four-card__content-area {
-  max-width: 311px;
+  max-width: 19.4375rem;
 }
 
 .section-four-card__title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 275;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: 0.166667px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.0104rem;
   color: #4d4f62;
 
-  padding: 0 7px;
-  margin-bottom: 1px;
+  padding: 0 0.4375rem;
+  margin-bottom: 0.0625rem;
 }
 
 .section-four-card__strong {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   text-align: center;
-  letter-spacing: 0.166667px;
+  letter-spacing: 0.0104rem;
   color: #4d4f62;
 
   display: inline-block;
-  padding: 0 8px;
-  margin-bottom: 13px;
+  padding: 0 0.5rem;
+  margin-bottom: 0.8125rem;
 }
 
 .section-four-card__description {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
   text-align: center;
-  letter-spacing: 0.104167px;
+  letter-spacing: 0.0065rem;
   color: #4d4f62;
   mix-blend-mode: normal;
   opacity: 0.5;
@@ -99,11 +98,11 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  gap: 25px;
+  gap: 1.5625rem;
 }
 
 .card-item {
-  padding: 23.45px 28px 28px 28px;
+  padding: 1.4656rem 1.75rem 1.75rem 1.75rem;
 
   /* The Flexbox */
   display: flex;
@@ -111,8 +110,8 @@ body {
 
   /* The box-shadow */
   background: #ffffff;
-  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-  border-radius: 8px;
+  box-shadow: 0 0.9375rem 1.875rem -0.6875rem rgba(131, 166, 210, 0.5);
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
@@ -120,31 +119,31 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   color: #4d4f62;
 
-  margin-bottom: 1px;
+  margin-bottom: 0.0625rem;
 }
 
 .card-item__description {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
-  letter-spacing: 0.0902778px;
+  font-size: 0.8125rem;
+  line-height: 1.4375rem;
+  letter-spacing: 0.0056rem;
   color: #4d4f62;
   mix-blend-mode: normal;
   opacity: 0.5;
 
-  margin-left: 1px;
-  margin-bottom: 33px;
+  margin-left: 0.0625rem;
+  margin-bottom: 2.0625rem;
 }
 
 .card-item__icon {
-  width: 57px;
-  height: 57px;
+  width: 3.5625rem;
+  height: 3.5625rem;
 
   /* The Flexbox */
   align-self: flex-end;
@@ -154,9 +153,9 @@ body {
 
 .card-item::before {
   content: "";
-  width: calc(28px + 100% + 28px);
-  height: 3.55px;
-  transform: translateX(-28px) translateY(calc(-27px + 3.55px));
+  width: calc(1.75rem + 100% + 1.75rem);
+  height: 0.2219rem;
+  transform: translateX(-1.75rem) translateY(calc(-1.6875rem + 0.2219rem));
 }
 
 .card-item--green::before {
@@ -179,9 +178,9 @@ body {
 .sr-only {
   position: absolute;
   top: auto;
-  height: 1px;
-  width: 1px;
+  height: 0.0625rem;
+  width: 0.0625rem;
   overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: rect(0.0625rem, 0.0625rem, 0.0625rem, 0.0625rem);
   white-space: nowrap;
 }

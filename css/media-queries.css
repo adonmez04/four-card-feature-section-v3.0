@@ -1,48 +1,48 @@
 /* THE DESKTOP SETTINGS */
 /* Above the 700px */
 
-@media (min-width: 700px) {
+@media (min-width: 43.75em) {
+  /* For the pixel perfect solution */
   main {
-    transform: translateY(-6.25px);
+    transform: translateY(-0.3906rem);
   }
 
   .section-four-card {
-    max-width: 1440px;
-    padding: 80px 165px;
+    max-width: 90rem;
+    padding: 5rem 10.3125rem;
     background: #fafafa;
-    /* background-color: red; */
 
     /* The Flexbox */
-    gap: 64px;
+    gap: 4rem;
   }
 
   /* The Content Area */
   .section-four-card__content-area {
-    max-width: 540px;
+    max-width: 33.75rem;
   }
 
   .section-four-card__title {
-    font-size: 36px;
-    line-height: 54px;
-    letter-spacing: 0.25px;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    letter-spacing: 0.0156rem;
 
     /* padding: 0 48px; */
-    padding: 0 47px;
-    margin-bottom: 0px;
+    padding: 0 2.9375rem;
+    margin-bottom: 0;
 
-    transform: translate(1px, 6px);
+    transform: translate(0.0625rem, 0.375rem);
   }
 
   .section-four-card__strong {
-    font-size: 36px;
-    line-height: 54px;
-    letter-spacing: 0.25px;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    letter-spacing: 0.0156rem;
 
     /* padding: 0 49px 0 50px; */
-    padding: 0 47px;
-    margin-bottom: 16px;
+    padding: 0 2.9375rem;
+    margin-bottom: 1rem;
 
-    transform: translate(3px, 3px);
+    transform: translate(0.1875rem, 0.1875rem);
   }
 
   /* The Card Area */
@@ -56,35 +56,36 @@
       "green red blue"
       "green yellow blue";
 
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .card-item {
-    padding: 28px 32px 32px 32px;
-    min-width: 160px;
+    padding: 1.75rem 2rem 2rem 2rem;
+    min-width: 10rem;
   }
 
   .card-item__title {
-    margin-bottom: 6px;
+    margin-bottom: 0.375rem;
   }
 
   .card-item__description {
-    margin-left: 0px;
-    margin-bottom: 40px;
+    margin-left: 0;
+    margin-bottom: 2.5rem;
   }
 
   .card-item__icon {
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
   }
 
   /* To change the color of the line */
 
   .card-item::before {
+    /* The background-color was added this way to protect the height value of the card-item */
     content: "";
-    width: calc(32px + 100% + 32px);
-    height: 4px;
-    transform: translateX(-32px) translateY(calc(-32px + 4px));
+    width: calc(2rem + 100% + 2rem);
+    height: 0.25rem;
+    transform: translateX(-2rem) translateY(calc(-2rem + 0.25rem));
   }
 
   /* The CSS Grid Area */
