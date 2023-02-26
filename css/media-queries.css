@@ -1,0 +1,104 @@
+/* THE DESKTOP SETTINGS */
+/* Above the 700px */
+
+@media (min-width: 700px) {
+  .section-four-card {
+    max-width: 1440px;
+    padding: 80px 165px;
+    background: #fafafa;
+    /* background-color: red; */
+
+    /* The Flexbox */
+    gap: 64px;
+  }
+
+  /* The Content Area */
+  .section-four-card__content-area {
+    max-width: 540px;
+  }
+
+  .section-four-card__title {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+
+    /* padding: 0 48px; */
+    padding: 0 47px;
+    margin-bottom: 0px;
+
+    transform: translate(1px, 6px);
+  }
+
+  .section-four-card__strong {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+
+    /* padding: 0 49px 0 50px; */
+    padding: 0 47px;
+    margin-bottom: 16px;
+
+    transform: translate(3px, 3px);
+  }
+
+  /* The Card Area */
+
+  .card-area {
+    /* The CSS Grid */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "green red blue"
+      "green yellow blue";
+
+    gap: 30px;
+  }
+
+  .card-item {
+    padding: 28px 32px 32px 32px;
+    min-width: 160px;
+  }
+
+  .card-item__title {
+    margin-bottom: 6px;
+  }
+
+  .card-item__description {
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .card-item__icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  /* To change the color of the line */
+
+  .card-item::before {
+    content: "";
+    width: calc(32px + 100% + 32px);
+    height: 4px;
+    transform: translateX(-32px) translateY(calc(-32px + 4px));
+  }
+
+  /* The CSS Grid Area */
+  .card-item--green {
+    grid-area: green;
+    align-self: center;
+  }
+
+  .card-item--red {
+    grid-area: red;
+  }
+
+  .card-item--yellow {
+    grid-area: yellow;
+  }
+
+  .card-item--blue {
+    grid-area: blue;
+    align-self: center;
+  }
+}
