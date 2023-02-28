@@ -16,9 +16,16 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
 
-<!-- ## Overview -->
+## Overview
 
-<!-- ## The Problems and Solutions -->
+Every challenge has some unique problems at frontendmentor.io. These challenges may look easy, but don't. If you try the pixel perfect solution, they'll become so painful. Although they look easy, they are really hard but very helpful to improve our coding skills. Unfortunately, there is no easy way to do that...
+
+The challenges we have some obvious problems to try to solve are the page layout and the colorful line at the top of the card. Let's look at them.
+
+## The Problems and Solutions
+
+**1 - The Page Layout**  
+We need to build two forms, mobile and desktop, of the page depending on the challenge files. Our design should change according to different devices and screen sizes and it should work perfectly with other screen sizes.
 
 <!-- ## My Questions for The Community -->
 
