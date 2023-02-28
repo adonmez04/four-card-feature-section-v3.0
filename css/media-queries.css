@@ -81,7 +81,8 @@
   /* To change the color of the line */
 
   .card-item::before {
-    /* The background-color was added this way to protect the height value of the card-item */
+    /* The background-color was added
+    this way to protect the height value of the card-item */
     content: "";
     width: calc(2rem + 100% + 2rem);
     height: 0.25rem;

@@ -12,7 +12,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 - [My Live Site](https://adonmez04.github.io/four-card-feature-section-v3.0/)
 
-- [My Solution Page](https://www.frontendmentor.io/solutions/fourcardfeaturesectionv30-FMDt0U9WQs)
+- [My Solution Page](https://www.frontendmentor.io/solutions/fourcardfeaturesectionv30-wMwXwpr92x)
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
 
