@@ -37,7 +37,7 @@ body {
 .section-four-card {
   max-width: 23.4375rem;
   padding: 5.3125rem 2rem 4.875rem;
-  background: #fafafa;
+  /* background: #fafafa; */
 
   /* The Flexbox */
   display: flex;
